@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
-public class StringFrequencyCalculator implements FrequencyCalculator {
+public class MyFrequencyCalculator implements FrequencyCalculator {
 
     @Override
     public Map<Character, Integer> calculateFrequency(String inputString) {
